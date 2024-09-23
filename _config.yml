@@ -21,7 +21,7 @@ title: "So Simple Development Site"
 description: "A simple Jekyll theme for words and pictures."
 baseurl: ""
 url: "https://mmistakes.github.io"
-logo: "/images/so-simple-site-logo.png" # path of site logo, e.g. "/assets/images/logo.png"
+logo: "/images/logo.png" # path of site logo, e.g. "/assets/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: true
 words_per_minute: 200
@@ -116,21 +116,21 @@ author:
     - title: Instagram
       url: https://instagram.com/mmistakes
       icon: fab fa-instagram
+      color: $instagram-color
     - title: GitHub
       url: https://github.com/mmistakes
       icon: fab fa-github-square
 
 # Footer Links
 footer_links:
-  - title: Twitter
-    url: https://twitter.com/mmistakes
-    icon: fab fa-twitter-square
+  - title: Facebook
+    url: #
+    color: facebook-color
+    icon: fab fa-facebook-square
   - title: Instagram
-    url: https://instagram.com/mmistakes
-    icon: fab fa-instagram
-  - title: GitHub
-    url: https://github.com/mmistakes
-    icon: fab fa-github-square
+    url: #
+    color: $instagram-color
+    icon: fab fa-instagram  
   - title: Feed
     url: atom.xml
     icon: fas fa-rss-square
